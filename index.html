@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="document.getElementById('score').disabled = true">
+    <form>
+<h1>CSET Project 2 Quiz</h1>
+    <div name="q1Div" id="q1Div">
+    <!-- Question 1 -->
+    <h4>What color is the carpet?</h4>
+    <input name="q1" type="radio" onclick="Check('correct', 'q1')" value="grey"><label>Grey</label><br>
+    <input name="q1" type="radio" onclick="Check('incorrect', 'q1')" value="red"><label>Red</label><br>
+    <input name= "q1"type="radio"onclick="Check('incorrect', 'q1')" value="purple"><label>Purple</label><br>
+    <input name="q1" type="radio"onclick="Check('incorrect', 'q1')" value="blue"><label>Blue</label><br>
+    </div>
+<br>
+<hr>
+<div name="q2Div" id="q2Div">
+    <!-- Question 2 -->
+    <h4>What color is the sky?</h4>
+    <input name="q2" type="radio" onclick="Check('incorrect', 'q2')" value="pink"><label>Pink</label><br>
+    <input name="q2" type="radio" onclick="Check('incorrect', 'q2')" value="purple"><label>Purple</label><br>
+    <input name="q2"type="radio"onclick="Check('correct', 'q2')" value="blue"><label>Blue</label><br>
+    <input name="q2" type="radio"onclick="Check('incorrect', 'q2')" value="red"><label>Red</label><br>
+    </div>
+<br>
+<hr>
+<div name="q3Div" id="q3Div">
+    <!-- Question 3 -->
+    <h4>Road work ahead?</h4>
+    <input name="q3" type="radio" onclick="Check('incorrect', 'q3')" value="Okay, and?"><label>Okay, and?</label><br>
+    <input name="q3" type="radio" onclick="Check('incorrect', 'q3')" value="Uh yeah I sure hope it doesn't"><label>Uh yeah I sure hope it doesn't</label><br>
+    <input name="q3"type="radio"onclick="Check('correct', 'q3')" value="Uh yeah I sure hope it does"><label></label>Uh yeah I sure hope it does<br>
+    <input name="q3" type="radio"onclick="Check('incorrect', 'q3')" value="Why"><label>Why</label><br>
+    </div>
+<br>
+<hr>
+<div name="q4Div" id="q4Div">
+    <!-- Question 4 -->
+    <h4>What is the name of this course?</h4>
+    <input name="q4" type="radio" onclick="Check('incorrect', 'q4')" value="CBET"><label>CBET</label><br>
+    <input name="q4" type="radio" onclick="Check('correct', 'q4')" value="CSET"><label>CSET</label><br>
+    <input name="q4" type="radio" onclick="Check('incorrect', 'q4')" value="CLET"><label>CLET</label><br>
+    <input name="q4" type="radio" onclick="Check('incorrect', 'q4')" value="CSEL"><label>CSEL</label><br>
+    </div>
+<br>
+<hr>
+<div name="q5Div" id="q5Div">
+    <!-- Question 5 -->
+    <h4>What is soccer called in Europe?</h4>
+    <input name="q5" type="radio" onclick="Check('incorrect', 'q5')" value="ballfoot"><label>ballfoot</label><br>
+    <input name="q5" type="radio" onclick="Check('incorrect', 'q5')" value="Soccer"><label>Soccer</label><br>
+    <input name="q5" type="radio" onclick="Check('incorrect', 'q5')" value="Idk I'm not European">Idk I'm not European<label></label><br>
+    <input name="q5" type="radio" onclick="Check('correct', 'q5')" value="FootBall"><label>Football</label><br>
+    </div>
+<br>
+<hr>
+<div name="q6Div" id="q6Div">
+    <!-- Question 6 -->
+    <h4> 10x + 20 = 2x - 5   What does x equal?</h4>
+    <input name="q6" type="radio" onclick="Check('incorrect', 'q6')" value="-3.225"><label>-3.225</label><br>
+    <input name="q6" type="radio" onclick="Check('incorrect', 'q6')" value="3.225"><label>3.225</label><br>
+    <input name="q6" type="radio" onclick="Check('incorrect', 'q6')" value="3.125"><label>3.125</label><br>
+    <input name="q6" type="radio" onclick="Check('correct', 'q6')" value="-3.125"><label>-3.125</label><br>
+    </div>
+<br>
+<hr>
+<div name="q7Div" id="q7Div">
+    <!-- Question 7 -->
+    <h4>What is 5*5 equivalent to?</h4>
+    <input name="q7" type="radio" onclick="Check('correct', 'q7')" value="25"><label>25</label><br>
+    <input name="q7" type="radio" onclick="Check('incorrect', 'q7')" value="52"><label>52</label><br>
+    <input name="q7" type="radio" onclick="Check('incorrect', 'q7')" value="26"><label>26</label><br>
+    <input name="q7" type="radio" onclick="Check('incorrect', 'q7')" value="23"><label>23</label><br>
+    </div>
+<br>
+<hr>
+<div name="q8Div" id="q8Div">
+    <!-- Question 8 -->
+    <h4>What building is the class in?</h4>
+    <input name="q8" type="radio" onclick="Check('incorrect', 'q8')" value="Mellor building"><label>Mellor building</label><br>
+    <input name="q8" type="radio" onclick="Check('correct', 'q8')" value="Orange street campus"><label>Orange street campus</label><br>
+    <input name="q8" type="radio" onclick="Check('incorrect', 'q8')" value="The library"><label>The library</label><br>
+    <input name="q8" type="radio" onclick="Check('incorrect', 'q8')" value="idk"><label>Idk</label><br>
+    </div>
+<br>
+<hr>
+<div name="q9Div" id="q9Div">
+    <!-- Question 9 -->
+    <h4>What Rooom Number Are We?</h4>
+    <input name="q9" type="radio" onclick="Check('incorrect', 'q9')" value="19"><label>19</label><br>
+    <input name="q9" type="radio" onclick="Check('incorrect', 'q9')" value="11"><label>11</label><br>
+    <input name="q9" type="radio" onclick="Check('correct', 'q9')" value="12"><label>12</label><br>
+    <input name="q9" type="radio" onclick="Check('incorrect', 'q9')" value="001"><label>001</label><br>
+    </div>
+<br>
+<hr>
+<div name="q10Div" id="q10Div">
+    <!-- Question 10 -->
+    <h4>What is 6 * 4</h4>
+    <input name="q10" type="radio" onclick="Check('incorrect', 'q10')" value="2.4"><label>2.4</label><br>
+    <input name="q10" type="radio" onclick="Check('incorrect', 'q10')" value="12"><label>12</label><br>
+    <input name="q10" type="radio" onclick="Check('incorrect', 'q10')" value="10"><label>10</label><br>
+    <input name="q10" type="radio" onclick="Check('correct', 'q10')" value="24"><label>24</label><br>
+    </div>
+<br>
+<hr>
+<div name="q11Div" id="q11Div">
+    <!-- Question 11 -->
+    <h4>What is the the first number of Pi</h4>
+    <input name="q11" type="radio" onclick="Check('correct', 'q11')" value="3"><label>3</label><br>
+    <input name="q11" type="radio" onclick="Check('incorrect', 'q11')" value="1"><label>1</label><br>
+    <input name="q11" type="radio" onclick="Check('incorrect', 'q11')" value="4"><label>4</label><br>
+    <input name="q11" type="radio" onclick="Check('incorrect', 'q11')" value="2"><label>2</label><br>
+    </div>
+<br>
+<hr>
+<div name="q12Div" id="q12Div">
+    <!-- Question 12 -->
+    <h4>How many questions are there</h4>
+    <input name="q12" type="radio" onclick="Check('incorrect', 'q12')" value="19"><label>19</label><br>
+    <input name="q12" type="radio" onclick="Check('correct', 'q12')" value="20"><label>20</label><br>
+    <input name="q12" type="radio" onclick="Check('incorrect', 'q12')" value="12"><label>12</label><br>
+    <input name="q12" type="radio" onclick="Check('incorrect', 'q12')" value="3"><label>3</label><br>
+    </div>
+<br>
+<hr>
+<div name="q13Div" id="q13Div">
+    <!-- Question 13 -->
+    <h4>Who Plays batman in Batman Begins</h4>
+    <input name="q13" type="radio" onclick="Check('incorrect', 'q13')" value="Robert Pattinson"><label>Robert Pattinson</label><br>
+    <input name="q13" type="radio" onclick="Check('incorrect', 'q13')" value="Patrick Bateman"><label>Patrick Bateman</label><br>
+    <input name="q13" type="radio" onclick="Check('correct', 'q13')" value="Christian Bale"><label>Christian Bale</label><br>
+    <input name="q13" type="radio" onclick="Check('incorrect', 'q13')" value="George Clooney"><label>George Clooney</label><br>
+    </div>
+<br>
+<hr>
+<div name="q14Div" id="q14Div">
+    <!-- Question 14 -->
+    <h4>Who plays The Flash in The CW tv show?</h4>
+    <input name="q14" type="radio" onclick="Check('correct', 'q14')" value="Grant Gustin"><label>Grant Gustin</label><br>
+    <input name="q14" type="radio" onclick="Check('incorrect', 'q14')" value="Barry Allen"><label>Barry Allen</label><br>
+    <input name="q14" type="radio" onclick="Check('incorrect', 'q14')" value="Ezra Miller"><label>Ezra Miller</label><br>
+    <input name="q14" type="radio" onclick="Check('incorrect', 'q14')" value="Iris West"><label>Iris West</label><br>
+    </div>
+<br>
+<hr>
+<div name="q15Div" id="q15Div">
+    <!-- Question 15 -->
+    <h4>What is Spider-Man's secret identity?</h4>
+    <input name="q15" type="radio" onclick="Check('incorrect', 'q15')" value="Big wheel"><label>Big wheel</label><br>
+    <input name="q15" type="radio" onclick="Check('incorrect', 'q15')" value="Miles Morales"><label>Miles Morales</label><br>
+    <input name="q15" type="radio" onclick="Check('incorrect', 'q15')" value="Eddie Brock"><label>Eddie Brock</label><br>
+    <input name="q15" type="radio" onclick="Check('correct', 'q15')" value="Peter Parker"><label>Peter Parker</label><br>
+    </div>
+<br>
+<hr>
+<div name="q16Div" id="q16Div">
+    <!-- Question 16 -->
+    <h4>What is the orange part of an egg called?</h4>
+    <input name="q16" type="radio" onclick="Check('incorrect', 'q16')" value="idkw"><label>idk what its called</label><br>
+    <input name="q16" type="radio" onclick="Check('incorrect', 'q16')" value="whites"><label>The whites</label><br>
+    <input name="q16" type="radio" onclick="Check('incorrect', 'q16')" value="orangepart">the "Orange part"<label></label><br>
+    <input name="q16" type="radio" onclick="Check('correct', 'q16')" value="yolk"><label>The yolk</label><br>
+    </div>
+<br>
+<hr>
+<div name="q17Div" id="q17Div">
+    <!-- Question 17 -->
+    <h4>2+3+4+5 = ?</h4>
+    <input name="q17" type="radio" onclick="Check('incorrect', 'q17')" value="3"><label>3</label><br>
+    <input name="q17" type="radio" onclick="Check('correct', 'q17')" value="14"><label>14</label><br>
+    <input name="q17" type="radio" onclick="Check('incorrect', 'q17')" value="52"><label>52</label><br>
+    <input name="q17" type="radio" onclick="Check('incorrect', 'q17')" value="7"><label>7</label><br>
+    </div>
+<br>
+<hr>
+<div name="q18Div" id="q18Div">
+    <!-- Question 18 -->
+    <h4>Whats the first five numbers of pi?</h4>
+    <input name="q18" type="radio" onclick="Check('incorrect', 'q18')" value="314"><label>31415.199999</label><br>
+    <input name="q18" type="radio" onclick="Check('incorrect', 'q18')" value="123"><label>123.321</label><br>
+    <input name="q18" type="radio" onclick="Check('incorrect', 'q18')" value="3.33"><label>3.331459</label><br>
+    <input name="q18" type="radio" onclick="Check('correct', 'q18')" value="3.14"><label>3.1415</label><br>
+    </div>
+<br>
+<hr>
+<div name="q19Div" id="q19Div">
+    <!-- Question 19 -->
+    <h4>What question are you on now?</h4>
+    <input name="q19" type="radio" onclick="Check('correct', 'q19')" value="19"><label>19</label><br>
+    <input name="q19" type="radio" onclick="Check('incorrect', 'q19')" value="1"><label>1, I just started.</label><br>
+    <input name="q19" type="radio" onclick="Check('incorrect', 'q19')" value="71"><label>71, yeah we have that many questions.</label><br>
+    <input name="q19" type="radio" onclick="Check('incorrect', 'q19')" value="5"><label>5, cuz Im taking my time.</label><br>
+    </div>
+<br>
+<hr>
+<div name="q20Div" id="q20Div">
+    <!-- Question 20 -->
+    <h4>How tall is Mr. Chowdury?</h4>
+    <input name="q20" type="radio" onclick="Check('incorrect', 'q20')" value="4">4'<label>4'</label><br>
+    <input name="q20" type="radio" onclick="Check('incorrect', 'q20')" value="6">6'<label>6'</label><br>
+    <input name="q20" type="radio" onclick="Check('correct', 'q20')" value="idk"><label>no idea, maybe 5'6"?</label><br>
+    <input name="q20" type="radio" onclick="Check('incorrect', 'q20')" value="dwarf"><label>3' dwarf XD</label><br>
+    </div>
+<br>
+<hr>
+</form>
+    <div id="button">
+<button id="score" onclick="score()">Submit</button>
+    <button onclick="window.location.reload()">Refresh The Page</button>
+    <br>
+    <div id="scoreDiv"> 
+
+    </div>
+</div>
+    <Script src="home.js"></Script>
+</body>
+</html>
